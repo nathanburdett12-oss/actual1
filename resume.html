@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Resume - Nathan Burdett</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #f5f7fb;
+        color: #111827;
+        line-height: 1.6;
+    }
+
+    header {
+        background: #1f2937;
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    nav {
+        background: #111827;
+        padding: 10px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    nav a {
+        color: #d1d5db;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: white;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    h2 {
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 6px;
+        margin-top: 40px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        margin-top: 15px;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    }
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        background: #111827;
+        color: #9ca3af;
+        margin-top: 50px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* BACK TO TOP BUTTON */
+    #backToTop {
+        position: fixed;
+        bottom: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #1f2937;
+        color: white;
+        padding: 12px 18px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease;
+    }
+
+    #backToTop.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #backToTop:hover {
+        background: #111827;
+    }
+</style>
+</head>
+
+<body>
+
+<div id="top"></div>
+
+<header>
+    <h1>Nathan Burdett</h1>
+    <p>Sales Leader | Business Owner | High-Performance Team Builder</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="basketball.html">Basketball</a>
+    <a href="games.html">Games</a>
+</nav>
+
+<div class="container">
+
+    <h2>Education</h2>
+    <div class="card">
+        <strong>Brigham Young University</strong><br>
+        Bachelor’s Degree in Business Management | In Progress<br><br>
+        Focused on leadership, organizational strategy, and business operations.
+    </div>
+
+    <h2>Professional Experience</h2>
+
+    <div class="card">
+        <strong>Sales Leader / Team Manager</strong><br>
+        Independent Business | Present<br><br>
+        - Lead high-performing sales team<br>
+        - Built systems for communication and performance<br>
+        - Train team in sales and leadership skills
+    </div>
+
+    <div class="card">
+        <strong>Sales Representative</strong><br>
+        Direct Sales | 2025 - Present<br><br>
+        - Improved sales efficiency and communication<br>
+        - Built strong customer relationships<br>
+        - Consistent top performer
+    </div>
+
+    <div class="card">
+        <strong>Warehouse Operations</strong><br>
+        Logistics Environment<br><br>
+        - Improved workflow efficiency<br>
+        - Worked in fast-paced operational settings
+    </div>
+
+    <h2>Volunteer Experience</h2>
+
+    <div class="card">
+        <strong>Full-Time Missionary</strong><br>
+        Kaohsiung, Taiwan | 2 Years<br><br>
+        - Implemented baptismal question strategy that increased baptisms<br>
+        - Leadership roles and training responsibilities<br>
+        - Developed Mandarin communication skills
+    </div>
+
+    <h2>Skills</h2>
+
+    <div class="card">
+        Sales Strategy, Leadership, Communication, CRM, Objection Handling
+    </div>
+
+    <div class="card">
+        Strategic Planning, HTML/CSS, Microsoft Office, Problem Solving
+    </div>
+
+    <div class="card">
+        Fluent Mandarin Chinese<br>
+        Region Basketball Champion<br>
+        Business Management Student
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Nathan Burdett</p>
+</footer>
+
+<a href="#top" id="backToTop">Back to Top</a>
+
+<script>
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 300) {
+        backToTop.classList.add("show");
+    } else {
+        backToTop.classList.remove("show");
+    }
+});
+</script>
+
+</body>
+</html>

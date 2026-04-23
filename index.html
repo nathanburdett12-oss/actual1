@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Burdett</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f9fb;
+            color: #333;
+        }
+
+        header {
+            background-image: url('mountains.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            min-height: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        nav {
+            background-color: rgba(17, 24, 39, 0.95);
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #d1d5db;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+        }
+
+        .profile-card {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            align-items: center;
+        }
+
+        /* Added a border and slightly adjusted shadow for the profile photo */
+        .profile-card img {
+            width: 240px;
+            max-width: 100%;
+            border-radius: 16px;
+            object-fit: cover;
+            border: 4px solid #1f2937; /* Navy/Dark Gray Border */
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+        }
+
+        /* Increased font size for the bio text */
+        .profile-card .profile-text {
+            flex: 1 1 320px;
+            font-size: 1.1rem; 
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #6b7280;
+        }
+
+        #backToTop {
+            position: fixed;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1f2937;
+            color: white;
+            padding: 12px 18px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+        }
+
+        #backToTop:hover {
+            background: #111827;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="top"></div>
+
+<header>
+    <h1>Nathan Burdett</h1>
+    <p>Sales Leader | Team Builder | Growth Focused</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+    <a href="games.html">Game</a>
+    <a href="basketball.html">Basketball</a>
+    <a href="resume.html">Resume</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="profile-card">
+        <img src="profile.jpeg" alt="Nathan Burdett portrait">
+        <div class="profile-text">
+            <p>
+                I am a driven sales leader with a passion for growth, performance, and continuous improvement. I currently lead a high-performing sales team, focusing on development, systems, and results. As a returned missionary and former athlete, I bring discipline, resilience, and leadership to everything I do. I learn quickly, adapt fast, and stay focused on excellence in every environment. Outside of work, I have a deep love for sports and any outdoor activities that get me moving. I thrive on meeting new people and building meaningful connections. Above all, I love my family and prioritize spending quality time with them.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience & Skills</h2>
+    <ul>
+        <li>Leadership and team development</li>
+        <li>Sales strategy and performance optimization</li>
+        <li>Strong communication and relationship building</li>
+        <li>Fast learner with high adaptability</li>
+        <li>Goal-oriented and competitive mindset</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: nathanburdett@gmail.com</p>
+    <p>Phone: 801-603-4332</p>
+</section>
+
+<a href="#top" id="backToTop">Back to Top</a>
+
+<footer>
+    <p>© 2026 Nathan Burdett</p>
+</footer>
+
+</body>
+</html>
